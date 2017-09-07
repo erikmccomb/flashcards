@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import FlashApp from './components/FlashApp';
 
 class App extends Component {
   render() {
@@ -12,9 +13,9 @@ class App extends Component {
         </div>
         <div>
           <p>
-          Dont Suck
+           <FlashApp />
           </p>
-          </div>
+        </div>
       </div>
     );
   }

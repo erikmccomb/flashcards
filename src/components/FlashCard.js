@@ -1,8 +1,11 @@
 import React from 'react';
 
-class flashCard extends React.Component{
-  render()
-  //front value and back value, 
-}
+const FlashCard = ({ id, front, back, onFlashCardClick, onDelete }) => (
+  <li>
+    <span onClick={() => onFlashCardClick(id)}>
+      {back} 
+    </span>
+  </li>
+)
 
-export default flashCard;
+export default FlashCard;
